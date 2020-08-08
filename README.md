@@ -1,8 +1,7 @@
-# The Sampampulancer # 
+# Sampampulancer # 
 
-(This project isn't live yet)
-
-[https://the-sampampulancer.justinlmartin.com](https://the-sampampulancer.justinlmartin.com)
+This project is still in the early stages of devellopment but you can see my progress here:
+[https://sampampulancer-dev.justinlmartin.com](https://sampampulancer-dev.justinlmartin.com)
 
 Record a one second audio sample that is seamlessly added to a sequencer. The user can adjust playback speed and direction, sample start point, 
 intervals between individual sequence steps, and amplitude modulation for each sequence step.
