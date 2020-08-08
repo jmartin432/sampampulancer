@@ -1,0 +1,64 @@
+{
+  "name": "the-sampampulancer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Browser-based Sampler, Modulator, Sequencer and Visualizer",
+  "author": {
+    "name": "Justin L. Martin",
+    "url": "info@justinlmartin.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "webpack-dev-server": "3.8.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "worklet-loader": "^1.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "the-sampampulancer@1.0.0",
+  "bugs": {
+    "url": "https://github.com/jmartin432/the-sampampulancer/issues"
+  },
+  "homepage": "https://github.com/jmartin432/the-sampampulancer#readme",
+  "license": "ISC",
+  "readme": "https://github.com/jmartin432/the-sampampulancer/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmartin432/the-sampampulancer.git"
+  }
+}

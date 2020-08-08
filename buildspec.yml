@@ -1,0 +1,20 @@
+version: 0.1
+
+env:
+  parameter-store:
+    VUE_APP_GOOGLE_MAPS_API_KEY: google-maps-api-key
+phases:
+  pre_build:
+    commands:
+       - echo "VUE_APP_GOOGLE_MAPS_API_KEY=${VUE_APP_GOOGLE_MAPS_API_KEY}" > .env
+       - cat .env
+  build:
+    commands:
+      - npm install
+      - npm run build
+artifacts:
+  files:
+    - dist/index.html
+    - dist/favicon.ico
+    - dist/css/*
+    - dist/js/*
