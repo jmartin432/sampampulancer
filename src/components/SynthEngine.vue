@@ -98,7 +98,11 @@ export default {
     addModulatorModule: async function () {
       console.log('adding modulator module')
       try {
-        await this.audioCtx.audioWorklet.addModule('modules/ModulatorWorklet.js')
+        await this.audioCtx.audioWorklet.addModule(
+            'modules/ModulatorWorklet.js',
+            {
+              credentials: 'omit',
+            })
       } catch (e) {
         console.log('error:', e)
         return null
