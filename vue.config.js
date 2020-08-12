@@ -17,7 +17,7 @@ module.exports = {
           loader: 'worklet-loader',
           options: {
             name: 'js/[hash].worklet.js',
-            publicPath: '/'
+            publicPath: '/public/modules/'
           }
         }
       ]
