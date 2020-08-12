@@ -5,7 +5,9 @@ module.exports = {
   configureWebpack: {
     plugins: [
       new htmlWebpackPlugin({  // Also generate a test.html
-        title: 'Sampampulancer'
+        title: 'Sampampulancer',
+        template: './public/index.html',
+        favicon: './public/favicon.ico'
       })
     ],
     module: {
