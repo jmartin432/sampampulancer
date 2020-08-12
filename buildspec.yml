@@ -4,10 +4,11 @@ phases:
   build:
     commands:
       - npm install
-      - vue-cli-service build
+      - npm run build
 artifacts:
   files:
     - dist/index.html
     - dist/favicon.ico
     - dist/css/*
     - dist/js/*
+    - dist/modules/*
