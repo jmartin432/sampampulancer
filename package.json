@@ -1,5 +1,5 @@
 {
-  "name": "the-sampampulancer",
+  "name": "sampampulancer",
   "version": "1.0.0",
   "private": true,
   "description": "A Browser-based Sampler, Modulator, Sequencer and Visualizer",
@@ -26,6 +26,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "html-webpack-plugin": "^4.3.0",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
@@ -50,15 +51,15 @@
     "last 2 versions",
     "not dead"
   ],
-  "_id": "the-sampampulancer@1.0.0",
+  "_id": "sampampulancer@1.0.0",
   "bugs": {
-    "url": "https://github.com/jmartin432/the-sampampulancer/issues"
+    "url": "https://github.com/jmartin432/sampampulancer/issues"
   },
-  "homepage": "https://github.com/jmartin432/the-sampampulancer#readme",
+  "homepage": "https://github.com/jmartin432/sampampulancer#readme",
   "license": "ISC",
-  "readme": "https://github.com/jmartin432/the-sampampulancer/blob/master/README.md",
+  "readme": "https://github.com/jmartin432/sampampulancer/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmartin432/the-sampampulancer.git"
+    "url": "git+https://github.com/jmartin432/sampampulancer.git"
   }
 }
